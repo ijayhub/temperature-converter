@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Nunito+Sans&family=Roboto&display=swap');
+:root{
+    --bg-color:purple;
+    --color-primary:white;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:var(--bg-color);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+.title{
+    font-family: 'Nunito', sans-serif;
+    color:var(--color-primary);
+    margin:20px;
+    font-size:40px;
+}
+.temp-converter{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+label{
+    display:block;
+    margin:20px 0;
+    color:var(--color-primary);
+    font-size:20px;
+}
+input{
+    padding:20px;
+    background:none;
+    color:var(--color-primary);
+    outline:none;
+    width:700px;
+    border:1px solid var(--color-primary);
+    font-size:20px;
+}
+::placeholder{
+    color:var(--color-primary);
+}
+@media only screen and (max-width:600px){
+    .title{
+        font-size: 20px;
+    }
+    input{
+        width:100%;
+        padding:10px;
+    }
+}
