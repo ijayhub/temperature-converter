@@ -17,9 +17,9 @@
   </ol>
 </details>
 
-Repo_name: 
+Repo_name: https://github.com/ijayhub/temperature-converter
 
-Hosted link: 
+Hosted link: https://ijayhub.github.io/temperature-converter/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
